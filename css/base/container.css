@@ -1,0 +1,35 @@
+.container {
+    width: 320px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 768px;
+        }
+} 
+
+@media screen and (min-width: 1158px) {
+    .container {
+        max-width: 1558px;
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 1158px;
+}
+}
+
+.page-header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* .container {
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+} */

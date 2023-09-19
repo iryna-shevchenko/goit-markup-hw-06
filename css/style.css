@@ -1,13 +1,13 @@
-:root {
+/* :root {
     --iris: #4D5AE5;
     --navyblue: #2E2F42;
     --slate: #434455;
     --white: #FFF;
     --cloud: #F4F4FD;
     --ocean: #404BBF;
-}
+} */
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -31,34 +31,34 @@ img {
 
 button {
     cursor: pointer;
-}
+} */
 
-body {
+/* body {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 400;
     color: var(--slate, #434455);
     background-color: var(--white);
     letter-spacing: 0.02em;
-}
+} */
 
-.container {
+/* .container {
     width: 1158px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-}
+} */
 
-ul {
+/* ul {
     list-style-type: none;
 }
 
 a {
     text-decoration: none;
-}
+} */
 
-.header {
+/* .header {
     padding-top: 24px;
     padding-bottom: 24px;
     border-bottom: 1px solid #e7e9fc;
@@ -151,7 +151,7 @@ a {
 .address {
     font-style: normal;
     margin-left: auto;
-}
+} */
 
 .hero-section {
     background-color: var(--navyblue);
@@ -197,7 +197,7 @@ a {
     gap: 24px;
 }
 
-.visually-hidden {
+/* .visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -208,7 +208,7 @@ a {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-}
+} */
 
 .advantage-list-icon {
     display: flex;
