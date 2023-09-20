@@ -153,7 +153,7 @@ a {
     margin-left: auto;
 } */
 
-.hero-section {
+/* .hero-section {
     background-color: var(--navyblue);
     padding-top: 188px;
     padding-bottom: 188px;
@@ -167,9 +167,9 @@ a {
     background-position: center;
     background-size: cover;
     
-}
+} */
 
-.hero-title {
+/* .hero-title {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -180,9 +180,9 @@ a {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 48px;
-}
+} */
 
-.advantage {
+/* .advantage {
     padding: 120px 0;
     gap: 24px;
 }
@@ -195,7 +195,7 @@ a {
 .advantage-list-item {
     width: calc((100% - 72px) / 4);
     gap: 24px;
-}
+} */
 
 /* .visually-hidden {
     position: absolute;
@@ -210,7 +210,7 @@ a {
     overflow: hidden;
 } */
 
-.advantage-list-icon {
+/* .advantage-list-icon {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -219,11 +219,11 @@ a {
     border-radius: 4px;
     margin-bottom: 8px;
     border: 1px solid var(--LIGHT-SLATE, #8E8F99);
-}
+} */
 
 
 
-.button {
+/* .button {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
@@ -296,9 +296,9 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
     margin-bottom: 8px;
-}
+} */
 
-.our-company-possition {
+/* .our-company-possition {
     line-height: 1.5;
     text-align: center;
     margin-bottom: 8px;
@@ -410,9 +410,9 @@ a {
 
 .our-portfolio-type {
     line-height: 1.5;
-}
+} */
 
-.our-portfolio-name-type {
+/* .our-portfolio-name-type {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
@@ -468,9 +468,9 @@ a {
 .social-media-item {
     width: 40px;
     height: 40px;
-}
+} */
 
-.social-media-link {
+/* .social-media-link {
     width: 100%;
     height: 100%;
     background-color: var(--iris);
@@ -548,7 +548,7 @@ a {
 
 .subscribe-form-submit-icon {
     margin-left: 16px;
-}
+} */
 /*========Backdrop============*/
 .backdrop {
     position: fixed;

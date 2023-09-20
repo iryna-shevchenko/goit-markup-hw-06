@@ -3,9 +3,9 @@
 @import "./base/container.css";
 
 /* Utils */
-@import "./utils/visually-hiden";
+@import "./utils/visually-hiden.css";
 @import "./utils/variables.css";
 
 /* Loyout */
 @import "./layout/header.css";
-@import "./layout/main.css"
+@import "./layout/main.css";
