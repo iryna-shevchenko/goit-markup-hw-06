@@ -550,7 +550,7 @@ a {
     margin-left: 16px;
 } */
 /*========Backdrop============*/
-.backdrop {
+/* .backdrop {
     position: fixed;
     top: 0;
     left: 0;
@@ -761,4 +761,4 @@ a {
     background-color: var(--ocean);
     border: none;
     fill: var(--cloud);
-}
+} */

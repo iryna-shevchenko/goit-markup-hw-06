@@ -1,0 +1,239 @@
+/* -----------------Mobile----------------------- */
+.footer {
+    background-color: #2e2f42;
+    padding-top: 97.5px;
+    padding-bottom: 96px;
+}
+
+.container-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    text-decoration: none;
+    display: flex;
+    margin-bottom: 17.5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.accent {
+    color: #f4f4fd;
+}
+
+.footer-idea {
+    color: var(--CLOUD, #f4f4fd);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-bottom: 72px;
+}
+
+.social-media {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    margin-bottom: 16px;
+    max-width: 264px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.social-media-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 72px;
+}
+
+.social-media-item {
+    width: 40px;
+    height: 40px;
+}
+
+.social-media-link {
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-media-icon {
+    fill: #f4f4fd;
+}
+
+.social-media-link:hover,
+.social-media-link:focus {
+    background-color: #31d0aa;
+}
+
+/* ---Footer form---- */
+
+.subscribe-subscribe {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.subscribe-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.subscribe-form-input {
+    width: 288px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid var(--WHITE, #fff);
+    opacity: 0.3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    background-color: transparent;
+    margin-bottom: 16px;
+}
+
+.subscribe-form-submit {
+    width: 165px;
+    height: 40px;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #4d5ae5;
+    border: none;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.subscribe-form-submit-icon {
+    fill: #f4f4fd;
+    margin-left: 16px;
+}
+
+.subscribe-form-input::placeholder {
+    color: #ffffff;
+}
+
+/* -----------------------Tablet------------------------------ */
+
+@media screen and (min-width: 768px) {
+    .container-footer {
+        display: flex;
+        align-items: baseline;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 24px;
+        justify-content: center;
+    }
+
+    .footer-idea {
+        width: 264px;
+        margin-bottom: 0;
+    }
+
+    .subscribe-form-input {
+        margin-right: 24px;
+    }
+
+    .footer-logo {
+        justify-content: flex-start;
+    }
+
+    .subscribe-form {
+        flex-direction: row;
+    }
+    
+    .subscribe-subscribe {
+        justify-content: flex-start;
+    }
+}
+
+/* --------------------Desktop--------------------- */
+
+@media screen and (min-width: 1158px) {
+    .footer {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .footer-logo {
+        justify-content: flex-start;
+    }
+
+    .container-footer {
+        display: flex;
+        align-items: baseline;
+        flex-wrap: nowrap;
+        gap: 0;
+    }
+
+    .footer-logo-idea {
+        margin-right: 120px;
+    }
+
+   /* ----Footer Form------ */
+
+    .subscribe {
+        margin-left: 80px;
+    }
+    
+    .subscribe-form {
+        display: flex;
+    }
+    
+    .subscribe-form-input {
+        width: 264px;
+        height: 40px;
+        border: 1px solid #ffffff;
+        background-color: transparent;
+        font-size: 12px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+        border-radius: 4px;
+        color: #ffffff;
+        padding-left: 16px;
+    }
+    
+    .subscribe-form-submit:hover,
+    .subscribe-form-submit:focus {
+        background-color: #404bbf;
+    }
+    
+    .subscribe-form-submit-icon {
+        fill: #f4f4fd;
+        margin-left: 16px;
+    }
+}
