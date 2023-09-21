@@ -163,6 +163,10 @@
     fill: #f4f4fd;
 }
 
+.mobile-menu-contacts-social-media {
+    margin-top: auto;
+}
+
 @media screen and (min-width: 768px) {
     .open-mobile-menu-btn {
         display: none;
