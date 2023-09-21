@@ -151,10 +151,11 @@
 @media screen and (min-width: 768px) {
     .container-footer {
         display: flex;
+        align-items: baseline;
         flex-direction: row;
         flex-wrap: wrap;
-        max-width: 584px;
-        gap: 72px 24px;
+        gap: 24px;
+        justify-content: center;
     }
 
     .footer-idea {
