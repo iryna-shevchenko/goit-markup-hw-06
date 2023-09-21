@@ -178,6 +178,10 @@
     .subscribe-subscribe {
         justify-content: flex-start;
     }
+
+    .social-media {
+        justify-content: flex-start;
+    }
 }
 
 /* --------------------Desktop--------------------- */
