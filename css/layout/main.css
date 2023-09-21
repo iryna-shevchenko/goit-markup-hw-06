@@ -8,7 +8,7 @@
     margin: auto;
     background-image: linear-gradient(rgba(46, 47, 66, 0.70),
             rgba(46, 47, 66, 0.70)),
-        url(/images/hero/Dark-bg-mobile.jpg);
+        url("../../images/hero/Dark-bg-mobile.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -19,7 +19,7 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
     .hero-section {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url("/images/hero/Dark-bg-mobile@2x.jpg");
+            url("../../images/hero/Dark-bg-mobile@2x.jpg");
     }
 }
 
@@ -65,7 +65,7 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
         background-size: cover;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),
-        url("/images/hero/Dark-bg-tablet.jpg");
+        url("../../images/hero/Dark-bg-tablet.jpg");
     }
 
     .hero-title {
@@ -110,7 +110,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
     .hero-section {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)),
-        url("/images/hero/Dark-bg-tablet@2x.jpg");
+        url("../../images/hero/Dark-bg-tablet@2x.jpg");
     }
 }
 
@@ -126,7 +126,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
         margin: auto;
         background-image: linear-gradient(rgba(46, 47, 66, 0.70),
                 rgba(46, 47, 66, 0.70)),
-            url(/images/hero/Dark-bg-desktop.jpg);
+            url(../../images/hero/Dark-bg-desktop.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -174,7 +174,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
             .hero-section {
                 background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                     rgba(46, 47, 66, 0.7)),
-                 url("/images/hero/Dark-bg-desktop@2x.jpg");
+                 url("../../images/hero/Dark-bg-desktop@2x.jpg");
              }
     }
 
