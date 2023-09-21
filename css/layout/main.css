@@ -444,8 +444,8 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
 /* --------------------Mobile------------------------------------- */
 
 .portfolio {
-    margin-top: 120px;
-    margin-bottom: 120px;
+    margin-top: 96px;
+    margin-bottom: 96px;
 }
 
 .portfolio-cards-text-description {
@@ -531,6 +531,11 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
 /* ------------------Desktop-------------------------------------- */
 
 @media screen and (min-width: 1156px) {
+    .portfolio {
+            margin-top: 120px;
+            margin-bottom: 120px;
+        }
+    
     .portfolio-cards-items {
         border: none;
         width: calc((100% - 48px) / 3);
