@@ -222,6 +222,10 @@
         min-height: 584px;
         padding: 72px 25px 24px 23px;
     }
+
+    .review-form-own-checkbox {
+        margin-top: 16px;
+    }
 }
 
 /* -------------------------Desktop-------------------------------- */
