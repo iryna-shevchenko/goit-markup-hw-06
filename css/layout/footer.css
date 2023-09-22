@@ -165,6 +165,7 @@
 
     .subscribe-form-input {
         margin-right: 24px;
+        margin-bottom: 0;
     }
 
     .footer-logo {

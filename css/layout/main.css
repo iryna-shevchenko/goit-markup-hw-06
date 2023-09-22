@@ -184,8 +184,8 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
 /* ---------------------Mobile--------------------------------- */
 
 .advantage {
- margin-top: 96px;
- margin-bottom: 96px;
+ padding-top: 96px;
+ padding-bottom: 96px;
 }
 
 .advantage-list-icon {
@@ -228,7 +228,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
     }
 
     .advantage-title {
-        align-items: flex-start;
+        text-align: left;
     }
 
     .advantage-list-item {
@@ -279,8 +279,8 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
     }
 
     .advantage {
-        margin-top: 120px;
-        margin-bottom: 120px;
+        padding-top: 120px;
+        padding-bottom: 120px;
     }
 }
 
@@ -337,6 +337,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .our-company-possition {
@@ -347,6 +348,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .our-company-social-media-list {
@@ -397,9 +399,21 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
 /* -------------------------Desktop------------------------ */
 
 @media screen and (min-width: 1158px) {
+    .team {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+    
     .our-company {
         display: flex;
         gap: 24px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
     }
 
     .our-team {
@@ -429,13 +443,11 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
         font-weight: 500;
         color: #2e2f42;
         text-align: center;
-        margin-bottom: 8px;
     }
 
     .our-company-possition {
         line-height: 1.5;
         text-align: center;
-        margin-bottom: 8px;
     }
 }
 
@@ -444,8 +456,8 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
 /* --------------------Mobile------------------------------------- */
 
 .portfolio {
-    margin-top: 96px;
-    margin-bottom: 96px;
+    padding-top: 96px;
+    padding-bottom: 96px;
 }
 
 .portfolio-cards-text-description {
@@ -461,7 +473,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
-    margin-bottom: 48px;
+    margin-bottom: 72px;
 }
 
 .portfolio-cards {
@@ -473,7 +485,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
 }
 
 .portfolio-cards-items {
-    border: 1px solid var(--CLOUD, #f4f4fd);
+    /* border: 1px solid var(--CLOUD, #f4f4fd); */
     background: var(--WHITE, #fff);
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
         0px 1px 1px 0px rgba(46, 47, 66, 0.16),
@@ -532,8 +544,8 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
 
 @media screen and (min-width: 1156px) {
     .portfolio {
-            margin-top: 118px;
-            margin-bottom: 118px;
+            padding-top: 120px;
+            padding-bottom: 120px;
         }
     
     .portfolio-cards-items {
