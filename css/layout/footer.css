@@ -118,7 +118,6 @@
 }
 
 .subscribe-form-input {
-    width: 288px;
     height: 40px;
     flex-shrink: 0;
     border-radius: 4px;
@@ -126,6 +125,12 @@
     opacity: 0.3;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     background-color: transparent;
+}
+
+@media screen and (max-width: 767px) {
+    .subscribe-form-input {
+        width: 288px;
+    }
 }
 
 .subscribe-form-submit {
@@ -160,14 +165,14 @@
 /* -----------------------Tablet------------------------------ */
 
 @media screen and (min-width: 768px) {
-    .container-footer {
-        display: flex;
-        align-items: baseline;
+     .container-footer {
+        /* width: 568px; */
         flex-direction: row;
         flex-wrap: wrap;
-        gap: 24px;
-        justify-content: center;
-    }
+        justify-content: flex-start;
+        align-items: flex-start;
+        column-gap: 24px;
+    } 
 
     .footer-idea {
         width: 264px;
@@ -175,8 +180,8 @@
     }
 
     .subscribe-form-input {
-        /* margin-right: 24px; */
         margin-bottom: 0;
+        width: 264px;
     }
 
     .footer-logo {
@@ -198,7 +203,22 @@
     .social-media {
         justify-content: flex-start;
     }
+
+    /* .footer-logo-idea {
+        margin-bottom: 72px;
+    } */
 }
+
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+    .footer-logo-idea {
+            margin-bottom: 72px;
+        }
+
+        .container-footer {
+            width: 568px;
+        }
+}
+
 
 /* --------------------Desktop--------------------- */
 
