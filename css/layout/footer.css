@@ -165,7 +165,11 @@
 /* -----------------------Tablet------------------------------ */
 
 @media screen and (min-width: 768px) {
-     .container-footer {
+    .footer {
+        padding-top: 96px;
+    }
+    
+    .container-footer {
         /* width: 568px; */
         flex-direction: row;
         flex-wrap: wrap;
